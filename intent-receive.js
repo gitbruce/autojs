@@ -1,3 +1,5 @@
+flash("come to receive");
+
 if (!(time && name)) {
     flash("测试");
     wait(3000);
@@ -10,10 +12,3 @@ var timestamp = Date.parse(time);
 var remain_time = timestamp - now;
 remain_time = Math.max(1000, remain_time);
 flash("onetask: remain_time is " + remain_time + ". name is " + name+ ". time is " + time);
-
-setTimeout(function (time, name) {
-    // 开始执行
-    flash("开始执行：" + time + " " + name);
-    performTask(name, 5, "", "");
-    exit();
-}, remain_time, time, name);

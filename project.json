@@ -1,0 +1,10 @@
+{
+    "name": "蚂蚁森林项目",
+    "main": "蚂蚁森林.js",
+    "ignore": [
+        "build"
+    ],
+    "packageName": "com.bruce.autojs",
+    "versionName": "1.0.0",
+    "versionCode": 1
+}
